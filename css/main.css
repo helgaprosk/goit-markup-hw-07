@@ -700,6 +700,9 @@ img {
   padding-bottom: 94px;
   background-color: var(--white-color);
   /*Выезжающий текст в секции Чем мы занимаемся*/
+  /*&__item:hover .project-overlay {
+      transform: translateY(0);
+  }*/
 }
 .section__work-list {
   display: -webkit-box;
@@ -709,19 +712,14 @@ img {
 }
 .section__item {
   position: relative;
-  overflow: hidden;
-}
-.section__item:hover .project-overlay {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
+  /*overflow: hidden;*/
 }
 
 .project-overlay {
   position: absolute;
   bottom: 0;
   left: 0;
-  -webkit-transform: translateY(70px);
-          transform: translateY(70px);
+  /*transform: translateY(70px);*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -737,10 +735,7 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
-  -webkit-transition: -webkit-transform var(--animation);
-  transition: -webkit-transform var(--animation);
-  transition: transform var(--animation);
-  transition: transform var(--animation), -webkit-transform var(--animation);
+  /*transition: transform var(--animation);*/
 }
 .project-overlay__text {
   color: var(--white-color);

@@ -448,7 +448,7 @@ img {
   transition: -webkit-transform var(--animation);
   transition: transform var(--animation);
   transition: transform var(--animation), -webkit-transform var(--animation);
-  opacity: 0;
+  /*opacity: 0;*/
 }
 .portfolio__overlay-text {
   color: var(--white-color);
@@ -459,7 +459,7 @@ img {
 .portfolio__thumb:hover .portfolio__overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-  opacity: 1;
+  /*opacity: 1;*/
 }
 
 address {
